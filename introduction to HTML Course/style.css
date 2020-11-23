@@ -1,4 +1,62 @@
 /*Comments for css*/
 body {
     background-color: floralwhite;
+    font-family: 'Architects Daughter', 'cursive';
+}
+img{
+width: 50%;
+float: right;
+margin: 10px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    width: 100px;
+}
+nav ul li a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 0;
+    background-color:  #222;
+
+}
+nav ul li a:hover {
+    background-color: #000;
+}
+.highlight{
+    background-color: beige;
+}
+
+header{
+    background-color: #444;
+    padding:25px 5px;
+    color: white;
+    font-size: 24px;
+    height: 200px;
+}
+section{
+    background-color: floralwhite
+}
+footer{
+    background-color: #ddd;
+    padding: 25px 5px;
+}
+nav{
+    background-color: #333;
+    width: 100%;
+}
+#wrapper{
+    max-width: 780px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#mainsection section{
+    padding: 10px 25px;
 }
