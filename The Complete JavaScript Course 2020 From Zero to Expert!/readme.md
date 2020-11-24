@@ -3,7 +3,7 @@
 gonna make a couple of apps. lets go
 
 Progress Tracker
-Episode #42
+Episode #50
 
 //section 2
 Javascript data types
