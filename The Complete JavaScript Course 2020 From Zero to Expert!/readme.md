@@ -3,7 +3,7 @@
 gonna make a couple of apps. lets go
 
 Progress Tracker
-Episode #79
+Episode #88
 
 //section 2
 Javascript data types
@@ -57,3 +57,6 @@ document
 this is important for making buttons work
 document.querySelector('.number').style lets you manipulate styles using camelCase values and strings
 dont forget i set query as a snippet for document.querySelector
+
+query.classList.add/remove can easy add and remove css classes to change looks
+this can be comma seperated arrays.
