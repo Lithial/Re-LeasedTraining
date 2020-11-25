@@ -66,3 +66,12 @@ first class functions is when functions are variables
 JIT just in time compilation. code is compiled and then executed immediately.
 
 Section 8 should be revisted with more brain or more coffee
+
+so the backend of js is kind of interesting
+scope is weird and prone to being messed up because the creator of js never thought it would get this big.
+
+the this keyword acts how it wants and its up to each person to intuit how it works
+
+hoisting is a byproduct of early creation and its one of those features that can't be removed because its so ingrained even though everyone hates it
+
+function declarations get hoisted to the top of the scope but arrow functions dont so they end up undefined if you try to call them before theyre initialised
