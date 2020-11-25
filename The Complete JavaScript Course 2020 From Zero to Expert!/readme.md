@@ -75,3 +75,18 @@ the this keyword acts how it wants and its up to each person to intuit how it wo
 hoisting is a byproduct of early creation and its one of those features that can't be removed because its so ingrained even though everyone hates it
 
 function declarations get hoisted to the top of the scope but arrow functions dont so they end up undefined if you try to call them before theyre initialised
+
+this keyword in an arrow function points to the lexical scope.
+this keyword in an object points to the object
+can copy functions from one object to another like theyre variables
+arrow functions on objects use the this keyword of the object above them which is usually the global scope
+Reiteratting why you shouldn't use var.
+can cheat the this keyword in by referencing it in a variable where you want it and then calling it
+arguments key word in the function lets you add more args to a function than is declared and then use those
+copying objects is like pointers
+
+Object.assign lets you copy objects by merging an empty object with the one you want to copy
+but it doesnt work on objects in objects
+This is called deepcloning and isnt covered until later
+
+//section 9

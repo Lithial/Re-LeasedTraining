@@ -25,14 +25,14 @@
 // }
 // const firstName = 'jonas';
 // calcAge(1991);
-console.log(addDecl(1, 2));
-console.log(addExpre(1 + 2));
-console.log(addArrow(1 + 2));
+// console.log(addDecl(1, 2));
+// console.log(addExpre(1 + 2));
+// console.log(addArrow(1 + 2));
 
-function addDecl(a, b) {
-  return a + b;
-}
-const addExpre = function (a, b) {
-  return a + b;
-};
-const addArrow = (a, b) => a + b;
+// function addDecl(a, b) {
+//   return a + b;
+// }
+// const addExpre = function (a, b) {
+//   return a + b;
+// };
+// const addArrow = (a, b) => a + b;
