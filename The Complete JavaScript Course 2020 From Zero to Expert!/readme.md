@@ -3,7 +3,7 @@
 gonna make a couple of apps. lets go
 
 Progress Tracker
-Episode #97
+Episode #118
 
 //section 2
 Javascript data types
@@ -90,3 +90,149 @@ but it doesnt work on objects in objects
 This is called deepcloning and isnt covered until later
 
 //section 9
+array destructuring is interesting
+const arr = [2,3,4];
+const [x,y,z] = arr
+this lets you assign the values to the arrays
+you can also skip values like
+[x,,y] = arr for 2 & 4
+this lets you return more than one variable from a function!!
+
+you can also destructure inside an array
+const nested = [2,4,[5,6]]
+const [i,,[j,k]] = nested
+
+it works on objects as well but the variables have to be the exact name of the objects variables you want
+const {name,openingHours,categories} = restaurant
+
+you can also rename them on the fly
+const {name: restaurantName, openingHours:hours, catagories:tag} = restaurant
+
+You can also set default values using =default
+and you can combine them
+const {menu = [], starterMenu:starter=[]} = restaurant
+
+Mutating variables
+let a = 111;
+let b = 999;
+const obj = {a:23, b: 7, c: 14};
+({a,b} = obj) curly braces are requred to make this work.
+
+objs within objs
+const {fri:{open,close}} = openingHours;
+
+can do destructuring in function params
+like in dart
+
+---
+
+The spread operator
+expands the array into all its elements
+for example
+instead of [1,2,arr[0],arr[1],arr[2]]
+you can do [1,2,...arr]
+the spread operator can only be used where you put values seperated by commas because it doesnt make new values.
+
+can also use it to join two arrays into a new array
+const newArray = [...starterArr, ...mainMenu]
+
+interables are arrays, strings maps and sets but not objects except now it can be since 2018.
+means you can use spreads on strings.
+can also use it to shallow copy objects instead of using obj.assign
+spread is used on the right side of the array or obj
+
+---
+
+Rest Operator
+this does the opposite of the spread operator but looks the same
+Rest is used on the left side of the assignment
+const [a,b,...others] = [1,2,3,4,5]
+Will take the rest of the variables in the destructuring and make them into an array so itll print like [1,2,[3,4,5]]
+can also do some fancy bullshit like this
+const [pizza, , risotto, ...otherFood] = [...mainMenu, ...startmenu] to pull only the information you want and push the rest into another array
+
+---
+
+Shortcircuiting
+|| &&
+can use any data type, return and datatype and do short circuiting
+In the case of || will return the first truthy datatype
+super useful for setting default values
+const guests = numGuests || 10
+be careful when the expected value is 0 because 0 is falsey
+
+&& operator
+opposite of the or
+returns the first falsey value or the last value
+
+Nullish Coalllesing Operator
+nullish values are null and undefined. doesnt include 0 and ""
+??
+only nullish values will short circuit
+
+---
+
+Forof loops
+forof loops give you just the item in an array using
+for (const item of allPlayers) {
+console.log(item);
+}
+if you do
+for (const item of allPlayers.entries()) {
+console.log(item);
+}
+you also get the index
+then you can destructure it and do
+for (const [i,item] of allPlayers.entries()) {
+console.log(`${i + 1}: ${item}`);
+}
+
+---
+
+Enhanced Object Literals
+With enhanced obj literals you can short hand attaching objects to other objects
+Can use computation in obj property names
+
+---
+
+Optional Chaining
+adding ? to a property means it only continues if the property exists
+
+You can loop objects using object.key and object.values
+
+---
+
+Sets
+Set is a collection of unique values
+uses .size instead of .length
+can also use .has to check if something exists in the set
+.delete lets you delete a value
+cant pull from it like an array because there are no indexes
+its only about knowing if a value is in a set
+
+---
+
+Maps
+const rest = new Map()
+maps let you do key value pairs
+can chain .set on maps
+you can easily convert from objs to maps using objects.entries()
+
+When should you use each datatype
+Simple list = array or set
+key value pairs = obj or map
+
+arrays when you need an ordered list of values that might contain duplicates and when you need to manipulate data
+
+sets when you need to work with unique values
+or when high performance is really important
+
+objects
+easier to write and access
+use when you need to include functions
+used when working with json
+
+maps
+better perforance and can have any data type
+easier to iterate
+easy to compute size
