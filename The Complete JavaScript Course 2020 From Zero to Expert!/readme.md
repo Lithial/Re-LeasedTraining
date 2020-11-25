@@ -3,7 +3,7 @@
 gonna make a couple of apps. lets go
 
 Progress Tracker
-Episode #88
+Episode #97
 
 //section 2
 Javascript data types
@@ -63,3 +63,6 @@ this can be comma seperated arrays.
 
 //Section 8
 first class functions is when functions are variables
+JIT just in time compilation. code is compiled and then executed immediately.
+
+Section 8 should be revisted with more brain or more coffee
