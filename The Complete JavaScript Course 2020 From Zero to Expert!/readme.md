@@ -60,3 +60,6 @@ dont forget i set query as a snippet for document.querySelector
 
 query.classList.add/remove can easy add and remove css classes to change looks
 this can be comma seperated arrays.
+
+//Section 8
+first class functions is when functions are variables
