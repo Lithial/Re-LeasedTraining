@@ -244,3 +244,31 @@ all string functions return strings
 Remember method chaining
 
 //section 10
+you can skip default params using undefined
+be specic if your changing variables in function params
+
+First class functions
+functions are values
+but also objects
+
+Higher order functions
+a function that recieves another function
+or one that returns another function
+
+you can assign the this keyword
+using function.call('thing to this',..otherargs)
+you can also use function.apply(thing, arrOfArgs)
+function.bind will create a new function where the param is always the this keyword.
+bind also sets in stone all the params passed in
+doing this is called partial application
+
+Immediately invoked function expressions
+(function(){
+console.log("this will never run again")
+})()
+
+Closures
+Happens in certain situations
+A closure makes a function remember all the variables that existed at its creation
+the variable a function is assigned to remembers the variables in the function even when the function is passed
+we don't create these manually nor can we access these variables.
