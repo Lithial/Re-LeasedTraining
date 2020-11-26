@@ -293,4 +293,11 @@ map does things and returns a new array
 filter filters objects by the params and makes a new array
 reduce adds all the elements together into one number
 find does what it says but only returns the first element in the boolean expression passed in
-some lets you do includes but with a condition like checking if something in an array is above something
+some lets you do includes but with a condition like checking if something in an array is above somethinge
+every lets you check if every value in the array matches the critera
+flat is a new method that combines arrays of arrays into one array
+flat map is the more efficient one level one version for maps
+sort takes 2 values. imagine them like 2 consequtive values. how theyre sorted in the callback is how the array will sort
+
+below 0 returns a,b
+above 0 returns b,a
