@@ -3,7 +3,7 @@
 gonna make a couple of apps. lets go
 
 Progress Tracker
-Episode #123
+Episode #140
 
 //section 2
 Javascript data types
@@ -272,3 +272,25 @@ Happens in certain situations
 A closure makes a function remember all the variables that existed at its creation
 the variable a function is assigned to remembers the variables in the function even when the function is passed
 we don't create these manually nor can we access these variables.
+
+Section 11
+array.slice works basically how the string one does
+and can be chained
+
+splice changes the origional array instead of making a new one.
+splice is often used to remove values from an array rather than returning anything
+reverse mutates the origional array
+concat joins two arrays
+Don't forget to look up things on mdn when you get stuck
+every foreach loop has access to the item, index and array if you declare them in that order
+Maps are the same with the same order (value key map)
+Sets are the same but the value and key are the same and they dont have indexes
+\_ for throwaway variables exists in JS
+insert adjact html is interesting
+
+map filter and reduce
+map does things and returns a new array
+filter filters objects by the params and makes a new array
+reduce adds all the elements together into one number
+find does what it says but only returns the first element in the boolean expression passed in
+some lets you do includes but with a condition like checking if something in an array is above something
