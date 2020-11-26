@@ -3,7 +3,7 @@
 gonna make a couple of apps. lets go
 
 Progress Tracker
-Episode #118
+Episode #123
 
 //section 2
 Javascript data types
@@ -236,3 +236,11 @@ maps
 better perforance and can have any data type
 easier to iterate
 easy to compute size
+
+strings can be searched for words and letters like arrays using indexof
+slice takes 2 variables or 1 | start |end but end is excluded
+negative values will pull it from the end
+all string functions return strings
+Remember method chaining
+
+//section 10
