@@ -3,7 +3,7 @@
 gonna make a couple of apps. lets go
 
 Progress Tracker
-Episode #140
+Episode #176
 
 //section 2
 Javascript data types
@@ -301,3 +301,13 @@ sort takes 2 values. imagine them like 2 consequtive values. how theyre sorted i
 
 below 0 returns a,b
 above 0 returns b,a
+
+![arrays](https://files.slack.com/files-pri/T032U5LE7-F01FF2U6BDL/image.png)
+
+//section 12
+numbers in js are always floating point
+isfinite is the best way to check if something is a number
+math.floor is better than math.truc coz it deals with negatives better
+n at the end of a number means bigint
+
+Intl is a localisation library
