@@ -337,3 +337,36 @@ Classes are also first class citizens
 The body of a class is always executed in strictmode
 classes can use extends and super for inheritence
 To chain methods, they have to return the obj theyre from
+
+Mapty
+Planning
+User stories
+
+- a description of the apps functionality from the users perspective
+- common format As a [type of user], i want [an action] so that [a benefit]
+
+  - As a user, i want to log my running workouts with location, distance, time, pace and steps/minute so that i can keep a log of my running
+  - As a user, i want to log my cycling workouts with location, distance, time , speed and elevation gain, so i can keep a log of all my cycling
+  - As a user, I want to see all my workouts at a glance, so i can easily track my progress over time
+  - As a user, i want to see all my workouts on a map so that i can eailty check where i work out the most
+  - As a user, I want to see all my workouts when i leave the app and come back later, so that i can keep using the app over time
+
+Features
+
+- A map where user clicks to add new workout
+- Geolocation to display map at current location
+- Form to imput the distance time pace and steps/minutes
+- Form for elevation gain
+- display all the workouts in a list
+- Display all the workouts on the map
+- Store the workout data in the browser using the local storage api.
+- On page load, read the saved data from local storage and display
+
+  Flow chart
+
+  - Always a good idea to start a flowchart with events like page loads.
+    Architecture
+
+- not required to be complete at start
+- can be worked out as you learn
+  Development
