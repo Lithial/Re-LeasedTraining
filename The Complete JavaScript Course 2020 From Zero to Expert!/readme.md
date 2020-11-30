@@ -3,7 +3,7 @@
 gonna make a couple of apps. lets go
 
 Progress Tracker
-Episode #176
+Episode #199
 
 //section 2
 Javascript data types
@@ -311,3 +311,9 @@ math.floor is better than math.truc coz it deals with negatives better
 n at the end of a number means bigint
 
 Intl is a localisation library
+
+---
+
+node lists are static but html collections live update
+queryselector is the modern way to do it
+css custom variables are a thing
