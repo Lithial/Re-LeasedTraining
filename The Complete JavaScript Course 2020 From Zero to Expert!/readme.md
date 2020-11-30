@@ -318,4 +318,22 @@ node lists are static but html collections live update
 queryselector is the modern way to do it
 css custom variables are a thing
 
+//Section 14
 Object oriented Programming
+Abstraction
+Ignoring or hiding details that dont matter, allowing us to get an overvierw perspective of the thing we're implementing instead of messing with details that dont really matter to our implementation
+
+Encapsulation.
+Keeping properties and methods private inside the class so they are not accessible from outside the class. Some methods can be exposed as a public interface. (API)
+
+Inheritance.
+Makes all properties and methods of a certain class available to a child class, forming a heirachical relationship between classes. this allows us to reuse common logic and to remodel real-world relationships
+
+Polymorphism
+a child class can overwrite a method it inherited from a parent class
+
+Classes are not hoisted
+Classes are also first class citizens
+The body of a class is always executed in strictmode
+classes can use extends and super for inheritence
+To chain methods, they have to return the obj theyre from
