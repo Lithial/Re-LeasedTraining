@@ -317,3 +317,5 @@ Intl is a localisation library
 node lists are static but html collections live update
 queryselector is the modern way to do it
 css custom variables are a thing
+
+Object oriented Programming
