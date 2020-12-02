@@ -375,3 +375,41 @@ Features
 module pattern
 write a function usually an iife
 Make it return an object that contains the things you want exposed to the outside
+
+most important thing is to write simple clean code
+Use very descriptive names.
+Use DRY
+Dont use Var
+Use Strong type checking ===
+dont use more than 3 params in your function
+return the same data type recieved
+use arrow functions where it makes the code more readable
+
+Use es6 classes
+implemenet method chaining
+encapsulate data and done mutate it from outside the class
+do not use arrow functions as methods in regular objects
+
+Avoid writing nested code
+use early return (guard clauses)
+use ternary operators where you can
+Use multiple ifs instead of if/else
+avoid loops where possible.
+
+Consume promises using async await where possible
+when possible run promises in parallel
+handle errors and promise rejects
+
+two different ways of writing code
+Imperative
+
+- Programmer explains how to do things.
+- We explain every step to the computer
+- Example step by step recipe of a cake
+
+Declaritive
+
+- programmer tells what to do
+- we simply describe the way the computer should achieve the result
+- the how gets abstracted away
+- description of a cake
