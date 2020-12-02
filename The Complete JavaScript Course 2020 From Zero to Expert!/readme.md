@@ -3,7 +3,7 @@
 gonna make a couple of apps. lets go
 
 Progress Tracker
-Episode #199
+Episode #266
 
 //section 2
 Javascript data types
@@ -370,3 +370,8 @@ Features
 - not required to be complete at start
 - can be worked out as you learn
   Development
+
+//Modules
+module pattern
+write a function usually an iife
+Make it return an object that contains the things you want exposed to the outside
