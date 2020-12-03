@@ -413,3 +413,42 @@ Declaritive
 - we simply describe the way the computer should achieve the result
 - the how gets abstracted away
 - description of a cake
+
+why do we need an architecture
+
+- we need structure
+- maintainability
+- expandability
+
+Frameworks usually do architecture for you
+The components of an archtecture
+
+- business logic
+  - Code that solves the actual business problem
+  - Directly realted to waht business does and what it nees
+  - examples include: sending messages, storing transtaions, calculating taxes etc
+- state
+  - what stores all the data in the browser
+  - should be the single source of truth
+  - ui should be kept in sync with the state
+  - state libraries exist (like redux)
+- http library
+  - makes and recieves ajax requests
+  - optional but almost always necessary in real world apps
+- application logic (router)
+  - code that is only concerned about the implementaiton of application itself
+  - Handles navigation and UI events
+- presentation logic (ui layer)
+  - code that is concerned about the visible part of the application
+  - essentially displays application state
+
+Model view controller MVC architechture
+
+model is the business logic and state. also contains the http library
+
+controller is the application logic.
+
+view is the presentation logic
+
+model and view should not know they exist
+bridged by the controller
