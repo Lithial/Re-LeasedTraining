@@ -3,7 +3,7 @@
 gonna make a couple of apps. lets go
 
 Progress Tracker
-Episode #266
+Episode #294 - but its broken
 
 //section 2
 Javascript data types
