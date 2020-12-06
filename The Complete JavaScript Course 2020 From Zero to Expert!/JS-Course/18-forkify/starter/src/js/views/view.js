@@ -4,7 +4,6 @@ export default class View {
   _data;
 
   render(data, render = true) {
-    console.log('pElement', this._parentElement);
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderError();
 
@@ -45,7 +44,6 @@ export default class View {
     });
   }
   _clear() {
-    console.log('Clearing ', this._parentElement);
     this._parentElement.innerHTML = '';
   }
   renderSpinner() {
