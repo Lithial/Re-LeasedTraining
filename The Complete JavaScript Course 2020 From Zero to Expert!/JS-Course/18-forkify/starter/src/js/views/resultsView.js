@@ -7,9 +7,6 @@ class ResultsView extends View {
   _message = '';
 
   _generateMarkup() {
-    console.log('pElement', this._parentElement);
-
-    console.log('generating search results please wait');
     return this._data.map(result => previewView.render(result, false)).join('');
   }
 }
